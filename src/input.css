@@ -1,0 +1,46 @@
+@import "tailwindcss";
+@layer components {
+  .btn-primary {
+    @apply text-[#FFFFFF] px-[20px] py-[9px] bg-[#1B99D4] rounded-[5px] font-semibold text-base tracking-[0%];
+  }
+  .place-holder {
+    @apply w-full border-1 border-[#E6E9FC] rounded-[5px] text-[15px] font-normal leading-[100%] tracking-[0.1%] text-[#000000] placeholder:text-[#727695] placeholder:font-normal placeholder:text-[15px] placeholder:leading-[100%] placeholder:tracking-[0.1%] px-[12.5px] py-[12px] focus:outline-0;
+  }
+}
+@layer base {
+}
+@layer utilities {
+  .font-inter {
+    font-family: "Inter", sans-serif;
+  }
+  .font-roboto {
+    font-family: "Roboto", sans-serif;
+  }
+  .font-poppins {
+    font-family: "Poppins", sans-serif;
+  }
+  .cust-shadow {
+    box-shadow: 1px 5px 50px rgba(84, 99, 122, 0.1);
+  }
+  .card-shadow {
+    box-shadow: 0.91px 4.57px 45.7px rgba(84, 99, 122, 0.1);
+  }
+  .card2-shadow {
+    box-shadow: 1px 5px 50px rgba(84, 99, 122, 0.1);
+  }
+  .client-shadow {
+    box-shadow: 1px 5px 50px rgba(84, 99, 122, 0.1);
+  }
+  .form-shadow {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.07);
+  }
+  .btn-shadow {
+    box-shadow: 0px 7px 29px rgba(99, 99, 110, 0.2);
+  }
+  .circle-btn {
+    box-shadow: 0px 0px 16px rgba(126, 126, 126, 0.1);
+  }
+  .clip-path {
+    clip-path: circle(50% at 100% 50%);
+  }
+}
